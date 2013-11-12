@@ -1,0 +1,17 @@
+gen/
+gen/*
+target/
+target/*
+tmp/
+bin/
+bin/*
+.DS_Store
+.classpath
+*.orig
+.idea
+*.iml
+.jhw-cache
+hardcopy.*
+project.*
+local.properties
+
