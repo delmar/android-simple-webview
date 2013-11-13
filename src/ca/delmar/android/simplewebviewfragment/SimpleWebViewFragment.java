@@ -87,7 +87,6 @@ public class SimpleWebViewFragment extends Fragment implements OnClickListener {
         if (mUrl != null) {
             mWebview.setWebViewClient(new MyWebViewClient());
             mWebview.setWebChromeClient(new MyWebChromeClient());
-            mWebview.getSettings().setPluginState(PluginState.ON);
             mWebview.getSettings().setUseWideViewPort(true);
             mWebview.getSettings().setDefaultZoom(ZoomDensity.FAR);
             mWebview.getSettings().setBuiltInZoomControls(true);
